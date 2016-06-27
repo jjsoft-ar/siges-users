@@ -1,6 +1,5 @@
 {
-	"name": "jjsoft/siges-users",
-	"version": "1.0.0",
+	"name": "jjsoft-ar/siges-users",
 	"description": "Users and Permissions management for SiGEs Platform",
 	"keywords": ["SigesApp", "Laravel Framework", "School Application Platform", "SAP"],
 	"type": "siges-platform-module",

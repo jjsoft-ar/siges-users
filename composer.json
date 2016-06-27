@@ -1,0 +1,31 @@
+{
+	"name": "jjsoft/siges-users",
+	"version": "1.0.0",
+	"description": "Users and Permissions management for SiGEs Platform",
+	"keywords": ["SigesApp", "Laravel Framework", "School Application Platform", "SAP"],
+	"type": "siges-platform-module",
+	"homepage": "https://github.com/jjsoft-ar/siges-users",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jose C Gallo",
+			"email": "josecgallo@gmail.com",
+			"homepage": "http://aguaragazu.github.io/aguaragazu",
+			"role": "Developer"
+		}
+	],
+	"require": {
+        "zizaco/entrust": "1.4.*",
+        "lucadegasperi/oauth2-server-laravel": "5.0.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Modules\\Users\\": ""
+		}
+	},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist"
+    }
+}
